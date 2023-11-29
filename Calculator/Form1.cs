@@ -25,10 +25,18 @@ namespace Calculator
         private void Cong_Click(object sender, EventArgs e)
         {
             int a, b, ketqua;
-            a = int.Parse(txt A.Text);
-            b = int.Parse(txt B.Text);
+            a = int.Parse(txtA.Text);
+            b = int.Parse(txtB.Text);
             ketqua = a + b;
-            txt ketqua.Text = ketqua.ToString();
+            txtketqua.Text = ketqua.ToString();
+        }
+
+        private void Tru_Click(object sender, EventArgs e)
+        {
+            double a = double.Parse(txtA.Text);
+            double b = double.Parse(txtB.Text);
+            double c = a - b;
+            txtketqua.Text = c.ToString();
         }
     }
 }

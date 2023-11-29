@@ -36,6 +36,7 @@
             this.TT = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
+            this.Tru = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Cong
@@ -106,11 +107,22 @@
             this.textBox3.Size = new System.Drawing.Size(175, 29);
             this.textBox3.TabIndex = 2;
             // 
+            // Tru
+            // 
+            this.Tru.Location = new System.Drawing.Point(222, 216);
+            this.Tru.Name = "Tru";
+            this.Tru.Size = new System.Drawing.Size(75, 46);
+            this.Tru.TabIndex = 4;
+            this.Tru.Text = "-";
+            this.Tru.UseVisualStyleBackColor = true;
+            this.Tru.Click += new System.EventHandler(this.Tru_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(794, 482);
+            this.Controls.Add(this.Tru);
             this.Controls.Add(this.TT);
             this.Controls.Add(this.So3);
             this.Controls.Add(this.So2);
@@ -139,6 +151,7 @@
         private System.Windows.Forms.Label TT;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Button Tru;
     }
 }
 
