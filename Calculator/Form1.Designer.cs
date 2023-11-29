@@ -43,7 +43,7 @@
             // 
             this.Cong.Location = new System.Drawing.Point(322, 216);
             this.Cong.Name = "Cong";
-            this.Cong.Size = new System.Drawing.Size(75, 46);
+            this.Cong.Size = new System.Drawing.Size(86, 46);
             this.Cong.TabIndex = 0;
             this.Cong.Text = "+";
             this.Cong.UseVisualStyleBackColor = true;
@@ -109,9 +109,9 @@
             // 
             // Tru
             // 
-            this.Tru.Location = new System.Drawing.Point(222, 216);
+            this.Tru.Location = new System.Drawing.Point(195, 216);
             this.Tru.Name = "Tru";
-            this.Tru.Size = new System.Drawing.Size(75, 46);
+            this.Tru.Size = new System.Drawing.Size(102, 46);
             this.Tru.TabIndex = 4;
             this.Tru.Text = "-";
             this.Tru.UseVisualStyleBackColor = true;
