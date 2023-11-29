@@ -46,6 +46,7 @@
             this.Cong.TabIndex = 0;
             this.Cong.Text = "+";
             this.Cong.UseVisualStyleBackColor = true;
+            this.Cong.Click += new System.EventHandler(this.Cong_Click);
             // 
             // So1
             // 
@@ -120,7 +121,7 @@
             this.Controls.Add(this.Cong);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.Blue;
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Form1";
             this.Text = "Tinhtoan";
             this.ResumeLayout(false);
